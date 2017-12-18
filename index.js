@@ -1,6 +1,6 @@
 // Write your solution in this file!
 const driver = {
-  name: 'Sam',
+  name: 'Bob',
   age: 32,
   gender: 'male',
   hobby: 'music',
