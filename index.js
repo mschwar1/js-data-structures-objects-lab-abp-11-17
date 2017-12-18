@@ -4,6 +4,7 @@ const driver = {
   age: 32,
   gender: 'male',
   hobby: 'music',
+  address: 'home',
 }
 
 function updateDriverWithKeyAndValue(obj, key, value) {
