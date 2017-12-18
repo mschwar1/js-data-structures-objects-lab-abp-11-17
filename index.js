@@ -3,8 +3,7 @@ const driver = {
   name: 'Sam',
   age: 32,
   gender: 'male',
-  interests: 'music',
-  address: '11 Broadway'
+  hobby: 'music',
 }
 
 function updateDriverWithKeyAndValue(obj, key, value) {
