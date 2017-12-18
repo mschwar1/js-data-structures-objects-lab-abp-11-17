@@ -1,10 +1,10 @@
 // Write your solution in this file!
 const driver = {
-  name: ['Sam'],
+  name: 'Sam',
   age: 32,
   gender: 'male',
-  interests: ['music', 'skiing']
-  address: ['11 Broadway']
+  interests: 'music',
+  address: '11 Broadway'
 }
 
 function updateDriverWithKeyAndValue(obj, key, value) {
