@@ -8,7 +8,8 @@ const driver = {
 }
 
 function updateDriverWithKeyAndValue(obj, key, value) {
-  return Object.assign({}, driver, { ['age']: 40 });
+  return Object.assign({}, obj, { [key]: value });
+}
   const newDriver = updateDriverWithKeyAndValue(driver, age, 40)
 }
 
