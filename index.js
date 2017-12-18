@@ -6,4 +6,6 @@ const driver = {
   interests: ['music', 'skiing']
 }
 
-updateDriverWithKeyAndValue()
+function updateDriverWithKeyAndValue(driver, key, value) {
+  return Object.assign({}, driver, { [age]: 40 });
+}
