@@ -11,7 +11,7 @@ function updateDriverWithKeyAndValue(obj, key, value) {
 }
 
 function destructivelyUpdateDriverWithKeyAndValue (obj, key, value) {
-  driver[gender] = "female";
- 
+  driver["gender"] = "female";
+
   return obj;
 }
